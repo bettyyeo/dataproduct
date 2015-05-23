@@ -1,38 +1,23 @@
-# dataproduct
+# Producing Data Product
 
 
-The source code is deployed in 
-View the slide in http://rpubs.com/bettyyeo/81614
-This README file is the supporting documentation for this Shiny application. It consists of three sections:
+This README file is the supporting documentation for this Shiny application. It provides the background of the intent and briefly describe what the project is about.
 
 1. Background
-2. About the deployed application
+2. About the project
 
-The source codes deployed [here](https://bettyyeo.shinyapps.io/datapdt).
+[source codes] (https://bettyyeo.shinyapps.io/datapdt).
+[presentation slide] (http://rpubs.com/bettyyeo/81614).
 
 **Background**
 
-1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user         will need to get started using your application.
-2. Deploy the application on Rstudio's shiny server.
-3. Share the application link by pasting it into the text box below.
-4. Share your server.R and ui.R code on github.
-
-The application must include the following:
-
-- Some form of input (widget: textbox, radio button, checkbox, ...).
-- Some operation on the ui input in sever.R.
-- Some reactive output displayed as a result of server calculations.
-- You must also include enough documentation so that a novice user could use your application.
-- The documentation should be at the Shiny website itself. Do not post to an external link.
-
-The Shiny application in question is entirely up to you. However, if you're having trouble coming up with ideas, you could start from the simple prediction algorithm done in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end user, so that they don't need a lot of your prerequisite knowledge to evaluate your application. You should emphasize a simple project given the short time frame. 
+1. Requirement of the course to write produce a shiny application and a slidify presentation.
+2. For ease in case of problem rendering products in rPub, you could view and clone the source codes (server.R and ui.R) to view the intended application.  
+3. The slidify presentation is also contained in the directory in case you are not able to view in rPub.  You will need to hit spacebar to navigate to the next page. 
 
 **About the deployed application**
 
-This shiny application will allow users to have a prediction of the MPG relative to cars based on the mtcars dataset. Users simply need to enter the gross horsepower, number of cylinders and weight of the cars on the side panel. The result will be displayed automatically on the main panel.
+This shiny application is deployed [here](https://bettyyeo.shinyapps.io/datapdt).  The project make use of previous assingment on the prediction model of the mtcars dataset.  
 
-You can view the slidify presentation in [rPub] (http://rpubs.com/bettyyeo/81614)
-
-
-Clone the source codes (server.R ad ui.R) and do a runApp
+You can view the slidify presentation in [rPub] (http://rpubs.com/bettyyeo/81614).  The markdown could be found in the index.rmd and the html in index.html.  To navigate the pages in rPub, please tab on the spacebar. 
 
